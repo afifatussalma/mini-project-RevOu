@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Kalkulator Konversi Suhu</title>
+</head>
+<body>
+    <h1>Kalkulator Konversi Suhu</h1>
+    <form id="temperature-form">
+        <label for="temperature">Masukkan Suhu</label>
+        <input type="number" id="temperature" required>
+        
+        <label>Pilih Konversi:</label>
+        <input type="radio" name="conversion" value="toFahrenheit" id="toFahrenheit"> ke Fahrenheit
+        <input type="radio" name="conversion" value="toCelsius" id="toCelsius"> ke Celsius
+        
+        <input type="submit" value="Konversi">
+    </form>
+    
+    <div id="result">
+        <p>Hasil Konversi: <span id="conversion-result"></span></p>
+        <p>Penjelasan: <span id="explanation"></span></p>
+        <div id="calculation-explanation">
+            <h2>Cara Menghitung Konversi Suhu:</h2>
+            <p>Untuk menghitung konversi suhu, Anda dapat mengikuti langkah-langkah berikut:</p>
+            <ol>
+                <li>Masukkan suhu dalam Celsius.</li>
+                <li>Jika Anda ingin mengonversi ke Fahrenheit, gunakan rumus: Fahrenheit = (Celsius * 9/5) + 32.</li>
+                <li>Jika Anda ingin mengonversi ke Celsius, gunakan rumus: Celsius = (Fahrenheit - 32) * 5/9.</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

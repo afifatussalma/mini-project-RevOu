@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f0f0; /* Warna latar belakang abu-abu */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000; /* Warna teks hitam */
+}
+
+form {
+    background-color: #fff; /* Warna latar belakang putih */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000; /* Warna teks hitam */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Warna latar belakang tombol biru */
+    color: #fff; /* Warna teks tombol putih */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol biru saat hover */
+}
+
+#result {
+    background-color: #fff; /* Warna latar belakang putih */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#conversion-result {
+    font-weight: bold;
+    color: #000; /* Warna teks hitam */
+}
+
+#explanation {
+    color: #000; /* Warna teks hitam */
+}
